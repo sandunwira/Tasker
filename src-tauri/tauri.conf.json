@@ -25,7 +25,8 @@
         "maximize": true,
         "minimize": true,
         "unmaximize": true,
-        "unminimize": true
+        "unminimize": true,
+        "startDragging": true
       },
       "fs": {
         "all": true
@@ -46,7 +47,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "TauriTemplate",
+      "identifier": "Tasker",
       "longDescription": "A Windows app for testing notifications",
       "shortDescription": "A Windows app for testing notifications",
       "externalBin": [],
@@ -57,7 +58,9 @@
         "digestAlgorithm": "sha256",
         "timestampUrl": "",
         "wix": {
-          "language": "en-US"
+          "language": "en-US",
+          "bannerPath": "/src/assets/images/installer/banner.png",
+          "dialogImagePath": "/src/assets/images/installer/dialogImage.png"
         }
       }
     },
@@ -83,7 +86,7 @@
         "fullscreen": false,
         "focus": true,
         "resizable": true,
-        "decorations": true,
+        "decorations": false,
         "center": true
       }
     ]
