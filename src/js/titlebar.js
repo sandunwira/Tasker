@@ -1,5 +1,5 @@
 function titlebarHTML() {
-	var html = '<div class="titlebar-container">';
+	var html = '<div data-tauri-drag-region class="titlebar-container">';
 
 	html += '<div class="title">';
 	html += '<img src="../assets/images/logos/logo-text.svg">';
